@@ -23,6 +23,10 @@
   border: 1px solid black;
 }
 
+ul{
+  list-style: none;
+}
+
 body{
   background-color: var(--prime-white);
 
@@ -34,6 +38,16 @@ header{
 }
 
 /* main */
+.even{
+  background-color: var(--light-grey);
+}
+
+.flex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
 
 /* footer */
 footer{
