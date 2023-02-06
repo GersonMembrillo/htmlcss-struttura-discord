@@ -1,0 +1,42 @@
+/* general */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --prime-white: #FFFFFF;
+--light-grey: #F6F6F6;
+--grey-footer: #23272A;
+--purple-discord: #7289DA;
+--blu-header: #255EE9;
+--black-text: #000000;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.debug{
+  border: 1px solid black;
+}
+
+body{
+  background-color: var(--prime-white);
+
+}
+
+/* header */
+header{
+  background-color: var(--blu-header);
+}
+
+/* main */
+
+/* footer */
+footer{
+  background-color: var(--grey-footer);
+  color: var(--prime-white);
+}
