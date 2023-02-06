@@ -29,12 +29,18 @@ ul{
 
 body{
   background-color: var(--prime-white);
-
+  font-family: 'Noto Sans', sans-serif;
 }
 
 /* header */
 header{
   background-color: var(--blu-header);
+}
+
+#hero{
+  background-image: url('../img/jumbo.png');
+  min-height: 500px;
+  background-size: cover;
 }
 
 /* main */
@@ -51,6 +57,22 @@ header{
 
 .align{
   align-items: center;
+}
+
+.text{
+  text-align: center;
+}
+
+.left{
+  width: 60%;
+}
+
+.right{
+  width: 40%;
+}
+
+.reverse{
+  flex-flow: row-reverse wrap;
 }
 
 /* footer */
